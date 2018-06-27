@@ -1,0 +1,1 @@
+<?php session_start(); if(isset($_SESSION['doctorid'])){ header("location:index.php"); }?>

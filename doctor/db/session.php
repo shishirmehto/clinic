@@ -1,0 +1,1 @@
+<?php session_start(); include_once"db_config.php"; if(!isset($_SESSION['doctorid'])){ header("location:login.php"); }?>
